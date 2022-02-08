@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  border: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  background: #e5e5e5;
+
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  width: 697px;
+  height: 1264px;
+
+  margin-inline: auto;
+
+  background-color: #ffffff;
+
+  font-family: "Ropa Sans", sans-serif;
+}
+
+header {
+  width: 697px;
+  height: 49px;
+
+  position: fixed;
+  z-index: 10;
+
+  background-color: #ffffff;
+
+  padding: 0 32px 0 32px;
+
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* header .logo img + img {
+  margin-left: 8px;
+} */
+
+header .burguer-menu {
+  cursor: pointer;
+}
+
+/* header .burguer-menu .burguer-menu-two {
+  width: 18px;
+  height: 12px;
+} */
+
+/* header .burguer-menu .burguer-menu-two span {
+  display: block;
+
+  width: 100%;
+
+  margin-top: 2.85px;
+
+  border-top: 2px solid #aaaaaa;
+} */
+
+.slider-container {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 32px 0 32px 0;
+
+  margin-top: 45px;
+}
+
+.slider-container .slides {
+  width: 688px;
+  height: 259px;
+  /* 
+  background: url("../assets//image-slide.png");
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.slider-container .slides img {
+  width: 100%;
+}
+
+.slider-container button {
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  border-radius: 50%;
+
+  background-color: rgba(141, 141, 141, 0.62);
+
+  outline: 0;
+  border: 0;
+  padding: 0;
+
+  transition: background-color 0.5s;
+}
+
+.slider-container button:hover {
+  background-color: rgba(141, 141, 141, 0.8);
+}
+
+.slider-container button.arrow-left {
+  transform: translateX(55px);
+}
+
+.slider-container button.arrow-right {
+  transform: translateX(-55px);
+}
+
+.cards-container {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0 32px 0 32px;
+}
+
+.card {
+  width: 256px;
+  height: 144px;
+}
+
+.card .card-header {
+  height: 33px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 12px;
+}
+
+.card-header .price {
+  font-size: 25px;
+  color: #888888;
+}
+
+.card-header .info-tag {
+  font-size: 16px;
+
+  color: #fff;
+
+  padding: 6px 12px 6px 12px;
+  border-radius: 16px;
+}
+
+.card-header .info-tag.new {
+  background-color: #51d275;
+}
+
+.card-header .info-tag.sale {
+  background-color: #dc9730;
+}
+
+.card .description {
+  margin-top: 8px;
+
+  text-align: justify;
+
+  color: #555555;
+
+  font-size: 14px;
+}
