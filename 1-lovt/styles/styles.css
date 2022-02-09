@@ -212,6 +212,14 @@ header .burguer-menu {
   text-shadow: 0 0 1px #555555;
 
   background: rgba(196, 196, 196, 0.5);
+
+  transition: background 0.5s;
+}
+
+.your-style div p:hover {
+  background: rgba(196, 196, 196, 0.3);
+
+  cursor: pointer;
 }
 
 .your-style .industrial {
