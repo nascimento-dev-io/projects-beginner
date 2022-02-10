@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+html {
+  background: #e5e5e5;
+}
+
+body {
+  width: 100%;
+  max-width: 1280px;
+
+  padding: 0 36px 0 36px;
+
+  margin-inline: auto;
+
+  background-color: #ffffff;
+
+  font-family: "Open Sans", sans-serif;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+header {
+  height: 80px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header .logo-shoes {
+  width: 180px;
+
+  cursor: pointer;
+}
+
+.menu-top {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+
+  list-style: none;
+}
+
+.menu-top li a {
+  padding: 16px;
+
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: #777777;
+
+  cursor: pointer;
+
+  transition: transform 0.5s;
+}
+
+.menu-top li a:hover {
+  transform: rotate(45deg);
+}
+
+.banner-top {
+  height: 235px;
+  width: 100%;
+}
+
+.banner-top img {
+  width: 100%;
+}
+
+h1.choice-style-title {
+  text-align: center;
+
+  font-size: 60px;
+  font-weight: 800;
+
+  margin: 60px 0 60px 0;
+}
+
+.styles-photos {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.sale-off {
+  min-height: 640px;
+  height: auto;
+
+  margin: 40px -32px 40px -32px;
+
+  padding: 16px;
+
+  background-color: #c2185b;
+}
+
+.sale-off h2 {
+  color: #fff;
+
+  text-align: center;
+
+  font-size: 44px;
+  font-weight: 800;
+
+  padding: 40px 0;
+}
+
+.cards-sales-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 16px;
+}
+
+.sale-off .card-sale {
+  width: 260px;
+  height: 380px;
+
+  background-color: #ffffff;
+}
+
+.card-sale .card-sale-title {
+  text-align: center;
+
+  margin-top: 12px;
+
+  text-transform: uppercase;
+
+  font-size: 14px;
+}
+
+.card-sale .card-sale-price {
+  display: block;
+  margin-left: 25px;
+}
+
+.highlight-fashion {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 256px auto;
+
+  grid-template-areas: "description", "photoprimary", "photosecondy",
+    "photoprimary";
+  gap: 16px;
+}
+
+.highlight-fashion .description {
+  grid-area: "description";
+}
+
+.highlight-fashion .photo-primary {
+  grid-area: "photo-primary";
+}
+
+.highlight-fashion .photo-secondary {
+  grid-area: "photo-secondary";
+}
+
+.description .title {
+  width: 400px;
+  font-size: 30px;
+
+  text-transform: uppercase;
+
+  font-weight: 600;
+}
+
+.description .btn-show-details {
+  display: block;
+
+  width: 400px;
+  height: 99px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 16px;
+
+  font-size: 36px;
+
+  text-decoration: none;
+
+  background-color: #c2185b;
+  color: #fff;
+
+  cursor: pointer;
+}
+
+footer {
+  min-height: 248px;
+  height: auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px 32px;
+
+  margin: 40px -32px 40px -32px;
+
+  background-color: #c2185b;
+  color: #fff;
+}
+
+footer > div {
+  flex: 1;
+}
+
+.about-footer {
+  width: 280px;
+
+  font-size: 15px;
+
+  font-weight: 400;
+}
+
+.about-footer img {
+  height: 100px;
+}
+
+.nav-footer {
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-top: 18px;
+}
+
+.nav-footer h5 {
+  font-size: 20px;
+
+  font-weight: 600;
+}
+
+.categories ul,
+.nav-footer ul {
+  border: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.categories ul a,
+.nav-footer ul a {
+  display: block;
+  color: #fff;
+
+  font-size: 15px;
+  font-weight: 400;
+
+  padding: 3px;
+
+  text-decoration: none;
+}
