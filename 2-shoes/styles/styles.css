@@ -324,7 +324,7 @@ h1.choice-style-title {
   background-color: rgb(182, 179, 179);
 }
 
-.contact-form input[type="button"] {
+.contact-form input[type="submit"] {
   margin: 16px 0;
   background-color: #c2185b;
   color: #fff;
@@ -333,6 +333,8 @@ h1.choice-style-title {
   font-weight: bold;
 
   padding: 10px 0;
+
+  cursor: pointer;
 }
 
 .contact-description {
