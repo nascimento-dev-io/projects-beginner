@@ -200,6 +200,149 @@ h1.choice-style-title {
   cursor: pointer;
 }
 
+.contact {
+  margin: 46px 0;
+
+  padding-top: 36px;
+}
+
+.contact h4 {
+  font-size: 39px;
+
+  font-weight: 600;
+  margin-bottom: 36px;
+
+  color: #575757;
+}
+
+.contact-container {
+  display: flex;
+
+  gap: 32px;
+
+  color: #9b9b9b;
+}
+
+.contact-container div {
+  word-wrap: break-word;
+}
+
+.contact-form .input-wrapper {
+  margin-bottom: 18px;
+}
+
+.input-wrapper label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.contact-form > form input {
+  width: 538px;
+  padding: 4px;
+
+  border: 1px solid #9b9b9b;
+}
+
+.checks-wrapper p,
+.radios-wrapper p {
+  margin: 16px 0;
+}
+
+.checks,
+.radios {
+  display: flex;
+}
+
+.checks-wrapper label.check-label-wrapper,
+.radios label {
+  display: flex;
+  align-items: center;
+
+  margin-right: 14px;
+}
+
+.checks-wrapper label.check-label-wrapper input,
+.radios-wrapper .radios label input {
+  width: 15px;
+  height: 15px;
+
+  margin-right: 8px;
+
+  background-color: #b1afaf;
+}
+.radios-wrapper {
+  margin-top: 18px;
+}
+
+.message-wrapper {
+  margin: 18px 0;
+  display: flex;
+  flex-direction: column;
+
+  gap: 8px;
+}
+
+.message-wrapper textarea {
+  border: 1px solid #9b9b9b;
+  box-sizing: border-box;
+
+  resize: none;
+  outline: none;
+
+  padding: 8px;
+
+  color: #9b9b9b;
+}
+
+.upload-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.upload-wrapper #curriculo {
+  display: none;
+}
+
+.upload-wrapper label {
+  display: inline-block;
+  width: 118px;
+  background-color: #c4c4c4;
+  color: #fff;
+
+  padding: 3px 6px;
+
+  text-align: center;
+
+  margin: 0 12px;
+
+  cursor: pointer;
+
+  transition: all 0.4s;
+}
+
+.upload-wrapper label:hover {
+  background-color: rgb(182, 179, 179);
+}
+
+.contact-form input[type="button"] {
+  margin: 16px 0;
+  background-color: #c2185b;
+  color: #fff;
+
+  font-size: 18px;
+  font-weight: bold;
+
+  padding: 10px 0;
+}
+
+.contact-description {
+  color: #575757;
+}
+
+.contact-description p {
+  margin-bottom: 16px;
+}
+
 footer {
   min-height: 248px;
   height: auto;

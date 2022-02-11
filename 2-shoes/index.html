@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shoes</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="./styles/styles.css">
 </head>
+
 <body>
 
     <header>
@@ -77,6 +79,89 @@
         <img src="./assets/photo-secondary.png" alt=" foto secundaria">
       </div>
 
+    </section>
+
+    <section class="contact">
+      <h4>Faça parte do nosso time</h4>
+     <div class="contact-container">
+      <div class="contact-form">
+        <form>
+          <div class="input-wrapper">
+            <label for="name">Nome</label>
+              <input type="text" id="name">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="email">Email</label>
+              <input type="email" id="email">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="telefone">Telefone</label>
+              <input type="text" id="telefone">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="departamentos">Departamentos</label>
+              <input type="text" id="departamentos">
+          </div>
+
+          <div class="checks-wrapper">
+            <p>Disponibilidade</p>
+           <div class="checks">
+            <label class="check-label-wrapper">
+              <input type="checkbox" name="integral" >
+              Integral (8h)
+            </label>
+
+            <label class="check-label-wrapper">
+              <input type="checkbox" name="meio" >
+              Meio periodo (4h)
+            </label>
+
+            <label class="check-label-wrapper">
+              <input type="checkbox" name="free" >
+              Freelancer
+            </label>
+           </div>
+          </div>
+
+          <div class="radios-wrapper">
+            <p>Qual a melhor forma para entrarmos em contato com você?</p>
+            <div class="radios">
+              <label>
+                <input type="radio" name="contact-type" value="email">
+                Email
+              </label>
+              <label>
+                <input type="radio" name="contact-type" value="ligacao">
+                Ligação
+              </label>
+              <label>
+                <input type="radio" name="contact-type" value="whatsapp">
+                Whatsapp
+              </label>
+            </div>
+          </div>
+
+          <div class="message-wrapper">
+            <label for="message">Mensagem</label>
+            <textarea id="message" cols="30" rows="10"></textarea>
+          </div>
+
+          <div class="upload-wrapper">
+            Curriculo:<label for="curriculo">upload</label> <input id="curriculo" type="file" />
+          </div>
+          
+          <input type="button" value="enviar">
+        </form>
+       </div>
+       <div class="contact-description">
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam adipisci repellat et saepe minus reiciendis maxime molestiae fugiat, suscipit provident error totam corrupti doloribus inventore animi officia pariatur numquam cum.</p>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam adipisci repellat et saepe minus reiciendis maxime molestiae fugiat, suscipit provident error totam corrupti doloribus inventore animi officia pariatur numquam cum.</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe numquam animi aspernatur facere adipisci ducimus similique ipsa quasi? Ullam facere vero est illo vel sequi quasi architecto cum minima quos. ,lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam adipisci repellat et saepe minus reiciendis maxime molestiae fugiat, suscipit provident error totam corrupti doloribus inventore animi officia pariatur numquam cum.</p>
+       </div>
+     </div>
     </section>
 
     <footer>
